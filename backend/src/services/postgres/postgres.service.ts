@@ -1,6 +1,6 @@
 import { Pool } from 'pg';
 
-let pool!: Pool;
+let pool: Pool | null = null;
 
 export const initDatabase = async () => {
   pool = new Pool({
@@ -21,7 +21,16 @@ export const initDatabase = async () => {
 };
 
 export const closeDatabase = async () => {
-  await pool.end();
+  if (pool) {
+    await pool.end();
+  }
 };
 
-export default pool;
+export const getPool = (): Pool => {
+  if (!pool) {
+    throw new Error('Database pool not initialized. Call initDatabase() first.');
+  }
+  return pool;
+};
+
+export default { getPool, initDatabase, closeDatabase };

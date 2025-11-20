@@ -1,0 +1,21 @@
+### POST create user
+POST {{BASE_API_URL}}/users
+Content-Type: application/json
+
+{
+  "name": "Test User"
+}
+
+### POST create quiz
+POST {{BASE_API_URL}}/quizzes
+Content-Type: application/json
+
+{
+  "userId": 999
+}
+
+### GET next quiz quiestion
+GET {{BASE_API_URL}}/quizzes/6c460a04-de02-4ecb-afc6-a9bb1bf8f35c/questions/next
+
+### POST submit answer
+POST {{BASE_API_URL}}/quizzes/6c460a04-de02-4ecb-afc6-a9bb1bf8f35c/questions/next

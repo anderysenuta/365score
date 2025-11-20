@@ -1,4 +1,5 @@
 import http from 'node:http';
+import { bodyParserMiddleware } from './middlewares/body-parser.middleware';
 import { corsMiddleware } from './middlewares/cors.middleware';
 import router from './routes';
 import { initDatabase } from './services/postgres/postgres.service';
@@ -12,7 +13,8 @@ const startServer = async () => {
   const app = composeMiddleware(
     [
       corsMiddleware,
-      // add additional middleware for auth, logging, body parsing, security checks, etc
+      bodyParserMiddleware,
+      // add additional middleware for auth, logging, security checks, etc
     ],
     router,
   );

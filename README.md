@@ -10,23 +10,46 @@
 
 ## Quick Start
 
-[//]: # (### Backend)
+### 1. Database (Docker)
+```bash
+cd backend
 
-[//]: # (```bash)
+# Start PostgreSQL with Docker Compose
+docker-compose up -d
 
-[//]: # (cd backend)
+# Database will be available at localhost:5432
+# Migrations run automatically on first start
+```
 
-[//]: # (npm ci)
+### 2. Seed Database
+```bash
+# (from backend folder)
+# Seed questions from football_quiz_100.json
+npm run seed
+```
 
-[//]: # (npm start)
+### 3. Backend
+```bash
+# (from backend folder)
+npm ci
 
-[//]: # (```)
+# Copy environment variables
+cp .env.example .env
 
-### Frontend
+npm start
+```
+
+### 4. Frontend
 ```bash
 cd frontend
 npm ci
 npm run dev
+```
+
+### Stop Database
+```bash
+cd backend
+docker-compose down
 ```
 
 
