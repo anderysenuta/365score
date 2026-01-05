@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "options": [
+      { "id": 1, "value": "Brazil", "isCorrect": false },
+      { "id": 2, "value": "Uruguay", "isCorrect": true },
+      { "id": 3, "value": "Germany", "isCorrect": false },
+      { "id": 4, "value": "Italy", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How many FIFA World Cups has Brazil won?",
+    "options": [
+      { "id": 1, "value": "3", "isCorrect": false },
+      { "id": 2, "value": "5", "isCorrect": true },
+      { "id": 3, "value": "4", "isCorrect": false },
+      { "id": 4, "value": "6", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the maximum number of players on a football field per team?",
+    "options": [
+      { "id": 1, "value": "10", "isCorrect": false },
+      { "id": 2, "value": "11", "isCorrect": true },
+      { "id": 3, "value": "12", "isCorrect": false },
+      { "id": 4, "value": "13", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which player won the Ballon d'Or the most times?",
+    "options": [
+      { "id": 1, "value": "Pelé", "isCorrect": false },
+      { "id": 2, "value": "Diego Maradona", "isCorrect": false },
+      { "id": 3, "value": "Lionel Messi", "isCorrect": true },
+      { "id": 4, "value": "Cristiano Ronaldo", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In what year did the first UEFA Champions League take place?",
+    "options": [
+      { "id": 1, "value": "1955", "isCorrect": true },
+      { "id": 2, "value": "1960", "isCorrect": false },
+      { "id": 3, "value": "1965", "isCorrect": false },
+      { "id": 4, "value": "1950", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which club has won the most UEFA Champions League titles?",
+    "options": [
+      { "id": 1, "value": "AC Milan", "isCorrect": false },
+      { "id": 2, "value": "Bayern Munich", "isCorrect": false },
+      { "id": 3, "value": "Real Madrid", "isCorrect": true },
+      { "id": 4, "value": "Liverpool", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the duration of a standard football match?",
+    "options": [
+      { "id": 1, "value": "80 minutes", "isCorrect": false },
+      { "id": 2, "value": "90 minutes", "isCorrect": true },
+      { "id": 3, "value": "100 minutes", "isCorrect": false },
+      { "id": 4, "value": "110 minutes", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which country won the UEFA European Championship in 2020?",
+    "options": [
+      { "id": 1, "value": "England", "isCorrect": false },
+      { "id": 2, "value": "Italy", "isCorrect": true },
+      { "id": 3, "value": "Spain", "isCorrect": false },
+      { "id": 4, "value": "France", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How many players are on the bench as substitutes in a standard match?",
+    "options": [
+      { "id": 1, "value": "5", "isCorrect": false },
+      { "id": 2, "value": "7", "isCorrect": true },
+      { "id": 3, "value": "9", "isCorrect": false },
+      { "id": 4, "value": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which player is known as 'The King' in football?",
+    "options": [
+      { "id": 1, "value": "Pelé", "isCorrect": true },
+      { "id": 2, "value": "Ronaldinho", "isCorrect": false },
+      { "id": 3, "value": "Ronaldo", "isCorrect": false },
+      { "id": 4, "value": "Zinedine Zidane", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is the penalty box area in football called?",
+    "options": [
+      { "id": 1, "value": "Red zone", "isCorrect": false },
+      { "id": 2, "value": "Box area", "isCorrect": false },
+      { "id": 3, "value": "Penalty area", "isCorrect": true },
+      { "id": 4, "value": "Danger zone", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How many times did France win the FIFA World Cup before 2018?",
+    "options": [
+      { "id": 1, "value": "1", "isCorrect": true },
+      { "id": 2, "value": "2", "isCorrect": false },
+      { "id": 3, "value": "3", "isCorrect": false },
+      { "id": 4, "value": "0", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What color card is given for a serious foul or misconduct?",
+    "options": [
+      { "id": 1, "value": "Red card", "isCorrect": true },
+      { "id": 2, "value": "Yellow card", "isCorrect": false },
+      { "id": 3, "value": "Blue card", "isCorrect": false },
+      { "id": 4, "value": "Orange card", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which league is considered the most prestigious in Europe?",
+    "options": [
+      { "id": 1, "value": "Premier League", "isCorrect": false },
+      { "id": 2, "value": "UEFA Champions League", "isCorrect": true },
+      { "id": 3, "value": "La Liga", "isCorrect": false },
+      { "id": 4, "value": "Serie A", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "In what year did Cristiano Ronaldo win his first Ballon d'Or?",
+    "options": [
+      { "id": 1, "value": "2006", "isCorrect": false },
+      { "id": 2, "value": "2008", "isCorrect": true },
+      { "id": 3, "value": "2010", "isCorrect": false },
+      { "id": 4, "value": "2012", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "UAE", "isCorrect": false },
+      { "id": 2, "value": "Qatar", "isCorrect": true },
+      { "id": 3, "value": "Saudi Arabia", "isCorrect": false },
+      { "id": 4, "value": "Kuwait", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "How many sides does a football field have?",
+    "options": [
+      { "id": 1, "value": "3", "isCorrect": false },
+      { "id": 2, "value": "4", "isCorrect": true },
+      { "id": 3, "value": "5", "isCorrect": false },
+      { "id": 4, "value": "6", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Which player holds the record for most international goals?",
+    "options": [
+      { "id": 1, "value": "Lionel Messi", "isCorrect": false },
+      { "id": 2, "value": "Pelé", "isCorrect": false },
+      { "id": 3, "value": "Cristiano Ronaldo", "isCorrect": true },
+      { "id": 4, "value": "Gerd Müller", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What does FIFA stand for?",
+    "options": [
+      { "id": 1, "value": "Federation Internationale Football Association", "isCorrect": true },
+      { "id": 2, "value": "Federation International Football Authority", "isCorrect": false },
+      { "id": 3, "value": "Football International Federation Alliance", "isCorrect": false },
+      { "id": 4, "value": "Federation of International Football Athletes", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "How many times has Germany won the FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "3", "isCorrect": false },
+      { "id": 2, "value": "4", "isCorrect": true },
+      { "id": 3, "value": "5", "isCorrect": false },
+      { "id": 4, "value": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Which position is responsible for preventing goals?",
+    "options": [
+      { "id": 1, "value": "Forward", "isCorrect": false },
+      { "id": 2, "value": "Midfielder", "isCorrect": false },
+      { "id": 3, "value": "Goalkeeper", "isCorrect": true },
+      { "id": 4, "value": "Winger", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What is the standard circumference of a football?",
+    "options": [
+      { "id": 1, "value": "65-67 cm", "isCorrect": true },
+      { "id": 2, "value": "70-75 cm", "isCorrect": false },
+      { "id": 3, "value": "80-85 cm", "isCorrect": false },
+      { "id": 4, "value": "55-60 cm", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Which club is known as 'The Red Devils'?",
+    "options": [
+      { "id": 1, "value": "Liverpool FC", "isCorrect": false },
+      { "id": 2, "value": "Manchester United", "isCorrect": true },
+      { "id": 3, "value": "Arsenal FC", "isCorrect": false },
+      { "id": 4, "value": "Chelsea FC", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "In what year did Diego Maradona win the FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "1982", "isCorrect": false },
+      { "id": 2, "value": "1986", "isCorrect": true },
+      { "id": 3, "value": "1990", "isCorrect": false },
+      { "id": 4, "value": "1978", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is the width of the goal in football?",
+    "options": [
+      { "id": 1, "value": "7 meters", "isCorrect": false },
+      { "id": 2, "value": "7.32 meters", "isCorrect": true },
+      { "id": 3, "value": "8 meters", "isCorrect": false },
+      { "id": 4, "value": "6.5 meters", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Which country has won the most Copa América titles?",
+    "options": [
+      { "id": 1, "value": "Brazil", "isCorrect": false },
+      { "id": 2, "value": "Argentina", "isCorrect": true },
+      { "id": 3, "value": "Uruguay", "isCorrect": false },
+      { "id": 4, "value": "Paraguay", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What is a volley in football?",
+    "options": [
+      { "id": 1, "value": "A pass with the inside of the foot", "isCorrect": false },
+      { "id": 2, "value": "Kicking the ball while it's in the air", "isCorrect": true },
+      { "id": 3, "value": "A defensive move", "isCorrect": false },
+      { "id": 4, "value": "A throw-in", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Which team won the first Premier League in 1992-93?",
+    "options": [
+      { "id": 1, "value": "Arsenal", "isCorrect": false },
+      { "id": 2, "value": "Manchester United", "isCorrect": true },
+      { "id": 3, "value": "Chelsea", "isCorrect": false },
+      { "id": 4, "value": "Blackburn Rovers", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "What is the height of the goal in football?",
+    "options": [
+      { "id": 1, "value": "2 meters", "isCorrect": false },
+      { "id": 2, "value": "2.44 meters", "isCorrect": true },
+      { "id": 3, "value": "3 meters", "isCorrect": false },
+      { "id": 4, "value": "2.5 meters", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Which player has scored the most goals in FIFA World Cup history?",
+    "options": [
+      { "id": 1, "value": "Ronaldo", "isCorrect": false },
+      { "id": 2, "value": "Miroslav Klose", "isCorrect": true },
+      { "id": 3, "value": "Pelé", "isCorrect": false },
+      { "id": 4, "value": "Diego Maradona", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "What does UEFA stand for?",
+    "options": [
+      { "id": 1, "value": "Union of European Football Associations", "isCorrect": true },
+      { "id": 2, "value": "United European Football Association", "isCorrect": false },
+      { "id": 3, "value": "Union European Football Authority", "isCorrect": false },
+      { "id": 4, "value": "United European Football Athletes", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "In which country is Old Trafford stadium located?",
+    "options": [
+      { "id": 1, "value": "England", "isCorrect": true },
+      { "id": 2, "value": "Scotland", "isCorrect": false },
+      { "id": 3, "value": "Wales", "isCorrect": false },
+      { "id": 4, "value": "Northern Ireland", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Which player won the Ballon d'Or in 2023?",
+    "options": [
+      { "id": 1, "value": "Kylian Mbappé", "isCorrect": true },
+      { "id": 2, "value": "Erling Haaland", "isCorrect": false },
+      { "id": 3, "value": "Harry Kane", "isCorrect": false },
+      { "id": 4, "value": "Vinicius Jr", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "What is the minimum number of players required to start a match?",
+    "options": [
+      { "id": 1, "value": "9", "isCorrect": false },
+      { "id": 2, "value": "7", "isCorrect": true },
+      { "id": 3, "value": "8", "isCorrect": false },
+      { "id": 4, "value": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Which country won the first Euro (UEFA European Championship)?",
+    "options": [
+      { "id": 1, "value": "France", "isCorrect": true },
+      { "id": 2, "value": "Italy", "isCorrect": false },
+      { "id": 3, "value": "Germany", "isCorrect": false },
+      { "id": 4, "value": "England", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "What is offside in football?",
+    "options": [
+      { "id": 1, "value": "Being on the wrong side of the field", "isCorrect": false },
+      { "id": 2, "value": "Being closer to opponent's goal line than ball and opponent when pass is made", "isCorrect": true },
+      { "id": 3, "value": "Any violation of the rules", "isCorrect": false },
+      { "id": 4, "value": "A defensive formation", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Which club is known as 'The Gunners'?",
+    "options": [
+      { "id": 1, "value": "Chelsea FC", "isCorrect": false },
+      { "id": 2, "value": "Arsenal FC", "isCorrect": true },
+      { "id": 3, "value": "Tottenham Hotspur", "isCorrect": false },
+      { "id": 4, "value": "West Ham United", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "How many points does a team get for a win in football?",
+    "options": [
+      { "id": 1, "value": "1", "isCorrect": false },
+      { "id": 2, "value": "2", "isCorrect": false },
+      { "id": 3, "value": "3", "isCorrect": true },
+      { "id": 4, "value": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "In what year did Messi leave Barcelona?",
+    "options": [
+      { "id": 1, "value": "2020", "isCorrect": false },
+      { "id": 2, "value": "2021", "isCorrect": true },
+      { "id": 3, "value": "2022", "isCorrect": false },
+      { "id": 4, "value": "2019", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "What is a hat-trick in football?",
+    "options": [
+      { "id": 1, "value": "Two goals by one player", "isCorrect": false },
+      { "id": 2, "value": "Three goals by one player in a single match", "isCorrect": true },
+      { "id": 3, "value": "Four goals by one player", "isCorrect": false },
+      { "id": 4, "value": "A defensive performance", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Which country is Neymar from?",
+    "options": [
+      { "id": 1, "value": "Argentina", "isCorrect": false },
+      { "id": 2, "value": "Brazil", "isCorrect": true },
+      { "id": 3, "value": "Colombia", "isCorrect": false },
+      { "id": 4, "value": "Chile", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "What is the penalty in football for a handball?",
+    "options": [
+      { "id": 1, "value": "Free kick", "isCorrect": false },
+      { "id": 2, "value": "Penalty kick", "isCorrect": true },
+      { "id": 3, "value": "Red card", "isCorrect": false },
+      { "id": 4, "value": "Yellow card", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Which club has won the most Premier League titles?",
+    "options": [
+      { "id": 1, "value": "Chelsea", "isCorrect": false },
+      { "id": 2, "value": "Liverpool", "isCorrect": false },
+      { "id": 3, "value": "Manchester United", "isCorrect": true },
+      { "id": 4, "value": "Arsenal", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "How many sides of the pitch are there in football?",
+    "options": [
+      { "id": 1, "value": "2", "isCorrect": false },
+      { "id": 2, "value": "4", "isCorrect": true },
+      { "id": 3, "value": "6", "isCorrect": false },
+      { "id": 4, "value": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Which player won the 2022 FIFA World Cup Golden Ball?",
+    "options": [
+      { "id": 1, "value": "Kylian Mbappé", "isCorrect": true },
+      { "id": 2, "value": "Lionel Messi", "isCorrect": false },
+      { "id": 3, "value": "Gianluigi Donnarumma", "isCorrect": false },
+      { "id": 4, "value": "Ángel Di María", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "What is a corner kick in football?",
+    "options": [
+      { "id": 1, "value": "A free kick from midfield", "isCorrect": false },
+      { "id": 2, "value": "A kick from the corner when ball goes out over goal line", "isCorrect": true },
+      { "id": 3, "value": "A penalty kick", "isCorrect": false },
+      { "id": 4, "value": "A throw-in", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Which country hosted Euro 2020?",
+    "options": [
+      { "id": 1, "value": "France", "isCorrect": false },
+      { "id": 2, "value": "Multiple countries", "isCorrect": true },
+      { "id": 3, "value": "Italy", "isCorrect": false },
+      { "id": 4, "value": "England", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "What is a free kick in football?",
+    "options": [
+      { "id": 1, "value": "A kick with no defense", "isCorrect": false },
+      { "id": 2, "value": "An unobstructed kick awarded for opponent's foul", "isCorrect": true },
+      { "id": 3, "value": "A substitute entering the game", "isCorrect": false },
+      { "id": 4, "value": "A penalty kick", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Which player is known as 'CR7'?",
+    "options": [
+      { "id": 1, "value": "Neymar", "isCorrect": false },
+      { "id": 2, "value": "Cristiano Ronaldo", "isCorrect": true },
+      { "id": 3, "value": "Kylian Mbappé", "isCorrect": false },
+      { "id": 4, "value": "Luis Suárez", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "How many times has Spain won the UEFA European Championship?",
+    "options": [
+      { "id": 1, "value": "2", "isCorrect": false },
+      { "id": 2, "value": "3", "isCorrect": true },
+      { "id": 3, "value": "4", "isCorrect": false },
+      { "id": 4, "value": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "What does VAR stand for in football?",
+    "options": [
+      { "id": 1, "value": "Video Analysis Review", "isCorrect": false },
+      { "id": 2, "value": "Video Assistant Referee", "isCorrect": true },
+      { "id": 3, "value": "Video Assisted Refereeing", "isCorrect": false },
+      { "id": 4, "value": "Visual Authority Regulation", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Which club is known as 'The Reds'?",
+    "options": [
+      { "id": 1, "value": "Manchester United", "isCorrect": false },
+      { "id": 2, "value": "Liverpool FC", "isCorrect": true },
+      { "id": 3, "value": "Arsenal FC", "isCorrect": false },
+      { "id": 4, "value": "AC Milan", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "What is a bicycle kick in football?",
+    "options": [
+      { "id": 1, "value": "Using a bike during the match", "isCorrect": false },
+      { "id": 2, "value": "A volley with legs over head", "isCorrect": true },
+      { "id": 3, "value": "A defensive move", "isCorrect": false },
+      { "id": 4, "value": "A type of pass", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "How many referees are typically on the pitch in a football match?",
+    "options": [
+      { "id": 1, "value": "1", "isCorrect": true },
+      { "id": 2, "value": "2", "isCorrect": false },
+      { "id": 3, "value": "3", "isCorrect": false },
+      { "id": 4, "value": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Which country won the 2018 FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "Belgium", "isCorrect": false },
+      { "id": 2, "value": "France", "isCorrect": true },
+      { "id": 3, "value": "England", "isCorrect": false },
+      { "id": 4, "value": "Brazil", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "What is a nutmeg in football?",
+    "options": [
+      { "id": 1, "value": "A type of formation", "isCorrect": false },
+      { "id": 2, "value": "Passing ball through opponent's legs", "isCorrect": true },
+      { "id": 3, "value": "A defensive technique", "isCorrect": false },
+      { "id": 4, "value": "A free kick", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Which club plays at Stamford Bridge?",
+    "options": [
+      { "id": 1, "value": "Arsenal FC", "isCorrect": false },
+      { "id": 2, "value": "Tottenham Hotspur", "isCorrect": false },
+      { "id": 3, "value": "Chelsea FC", "isCorrect": true },
+      { "id": 4, "value": "West Ham United", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "How many players can be substituted in modern football?",
+    "options": [
+      { "id": 1, "value": "1", "isCorrect": false },
+      { "id": 2, "value": "3", "isCorrect": false },
+      { "id": 3, "value": "5", "isCorrect": true },
+      { "id": 4, "value": "7", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Which player holds the record for most Ballon d'Or awards overall?",
+    "options": [
+      { "id": 1, "value": "Cristiano Ronaldo", "isCorrect": false },
+      { "id": 2, "value": "Lionel Messi", "isCorrect": true },
+      { "id": 3, "value": "Johan Cruyff", "isCorrect": false },
+      { "id": 4, "value": "Pelé", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "What is the halfway line in football called?",
+    "options": [
+      { "id": 1, "value": "Center line", "isCorrect": true },
+      { "id": 2, "value": "Midfield line", "isCorrect": false },
+      { "id": 3, "value": "Dividing line", "isCorrect": false },
+      { "id": 4, "value": "Equal line", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Which country is Zinedine Zidane from?",
+    "options": [
+      { "id": 1, "value": "England", "isCorrect": false },
+      { "id": 2, "value": "France", "isCorrect": true },
+      { "id": 3, "value": "Italy", "isCorrect": false },
+      { "id": 4, "value": "Spain", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "What is a throwin in football?",
+    "options": [
+      { "id": 1, "value": "Throwing the ball forward", "isCorrect": false },
+      { "id": 2, "value": "Using hands to throw ball back into play from sideline", "isCorrect": true },
+      { "id": 3, "value": "Throwing the ball at opponent", "isCorrect": false },
+      { "id": 4, "value": "A penalty", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Which club won the UEFA Champions League in 2023?",
+    "options": [
+      { "id": 1, "value": "Real Madrid", "isCorrect": true },
+      { "id": 2, "value": "Manchester City", "isCorrect": false },
+      { "id": 3, "value": "Inter Milan", "isCorrect": false },
+      { "id": 4, "value": "Bayern Munich", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "How many times can a player be booked with a yellow card before being sent off?",
+    "options": [
+      { "id": 1, "value": "1", "isCorrect": false },
+      { "id": 2, "value": "2", "isCorrect": true },
+      { "id": 3, "value": "3", "isCorrect": false },
+      { "id": 4, "value": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Which country is Mesut Özil from?",
+    "options": [
+      { "id": 1, "value": "Turkey", "isCorrect": false },
+      { "id": 2, "value": "Germany", "isCorrect": true },
+      { "id": 3, "value": "Italy", "isCorrect": false },
+      { "id": 4, "value": "France", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "What is the most common formation in modern football?",
+    "options": [
+      { "id": 1, "value": "4-3-3", "isCorrect": true },
+      { "id": 2, "value": "5-3-2", "isCorrect": false },
+      { "id": 3, "value": "3-5-2", "isCorrect": false },
+      { "id": 4, "value": "2-4-4", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Which player is known as 'The Special One'?",
+    "options": [
+      { "id": 1, "value": "Pep Guardiola", "isCorrect": false },
+      { "id": 2, "value": "José Mourinho", "isCorrect": true },
+      { "id": 3, "value": "Carlo Ancelotti", "isCorrect": false },
+      { "id": 4, "value": "Arsène Wenger", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "What is the penalty arc in football?",
+    "options": [
+      { "id": 1, "value": "The line forming the edge of penalty area", "isCorrect": false },
+      { "id": 2, "value": "An arc marking the shooting distance", "isCorrect": true },
+      { "id": 3, "value": "Where players stand for penalties", "isCorrect": false },
+      { "id": 4, "value": "The goal line", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Which country hosted the 2010 FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "Brazil", "isCorrect": false },
+      { "id": 2, "value": "South Africa", "isCorrect": true },
+      { "id": 3, "value": "Germany", "isCorrect": false },
+      { "id": 4, "value": "Mexico", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "What does it mean when a team plays with high press?",
+    "options": [
+      { "id": 1, "value": "Playing with extra intensity", "isCorrect": false },
+      { "id": 2, "value": "Aggressively pursuing ball in opponent's half", "isCorrect": true },
+      { "id": 3, "value": "Defending the goal line", "isCorrect": false },
+      { "id": 4, "value": "Playing possession football", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Which player won the FIFA World Player of the Year in 2019?",
+    "options": [
+      { "id": 1, "value": "Lionel Messi", "isCorrect": false },
+      { "id": 2, "value": "Virgil van Dijk", "isCorrect": true },
+      { "id": 3, "value": "Cristiano Ronaldo", "isCorrect": false },
+      { "id": 4, "value": "Kylian Mbappé", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "What is the size of a standard football pitch?",
+    "options": [
+      { "id": 1, "value": "100-130 yards x 50-100 yards", "isCorrect": true },
+      { "id": 2, "value": "120-150 yards x 80-100 yards", "isCorrect": false },
+      { "id": 3, "value": "80-100 yards x 40-60 yards", "isCorrect": false },
+      { "id": 4, "value": "110-140 yards x 60-90 yards", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Which club plays at Anfield?",
+    "options": [
+      { "id": 1, "value": "Everton FC", "isCorrect": false },
+      { "id": 2, "value": "Liverpool FC", "isCorrect": true },
+      { "id": 3, "value": "Manchester United", "isCorrect": false },
+      { "id": 4, "value": "Chelsea FC", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "What does 'marking' mean in football?",
+    "options": [
+      { "id": 1, "value": "Drawing on the pitch", "isCorrect": false },
+      { "id": 2, "value": "Closely following an opponent to prevent them from playing", "isCorrect": true },
+      { "id": 3, "value": "Recording scores", "isCorrect": false },
+      { "id": 4, "value": "Making a line on the field", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Which country won the first Copa América tournament?",
+    "options": [
+      { "id": 1, "value": "Brazil", "isCorrect": false },
+      { "id": 2, "value": "Uruguay", "isCorrect": true },
+      { "id": 3, "value": "Argentina", "isCorrect": false },
+      { "id": 4, "value": "Paraguay", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "What is the maximum weight of a football?",
+    "options": [
+      { "id": 1, "value": "400 grams", "isCorrect": false },
+      { "id": 2, "value": "450 grams", "isCorrect": true },
+      { "id": 3, "value": "500 grams", "isCorrect": false },
+      { "id": 4, "value": "350 grams", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Which club is known as 'The Citizens'?",
+    "options": [
+      { "id": 1, "value": "Manchester City", "isCorrect": true },
+      { "id": 2, "value": "Chelsea FC", "isCorrect": false },
+      { "id": 3, "value": "Liverpool FC", "isCorrect": false },
+      { "id": 4, "value": "Arsenal FC", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "What is the role of a midfielder in football?",
+    "options": [
+      { "id": 1, "value": "Scoring goals exclusively", "isCorrect": false },
+      { "id": 2, "value": "Connecting defense and attack", "isCorrect": true },
+      { "id": 3, "value": "Defending the goal", "isCorrect": false },
+      { "id": 4, "value": "Throwing the ball in", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Which country is Sergio Ramos from?",
+    "options": [
+      { "id": 1, "value": "Italy", "isCorrect": false },
+      { "id": 2, "value": "Portugal", "isCorrect": false },
+      { "id": 3, "value": "Spain", "isCorrect": true },
+      { "id": 4, "value": "France", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "What is the distance of a penalty spot from the goal line?",
+    "options": [
+      { "id": 1, "value": "10 yards", "isCorrect": false },
+      { "id": 2, "value": "11 yards", "isCorrect": false },
+      { "id": 3, "value": "12 yards", "isCorrect": true },
+      { "id": 4, "value": "13 yards", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Which club plays at Santiago Bernabéu?",
+    "options": [
+      { "id": 1, "value": "Barcelona", "isCorrect": false },
+      { "id": 2, "value": "Real Madrid", "isCorrect": true },
+      { "id": 3, "value": "Atletico Madrid", "isCorrect": false },
+      { "id": 4, "value": "Valencia", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "What is a 'false nine' in football?",
+    "options": [
+      { "id": 1, "value": "A defender playing upfront", "isCorrect": false },
+      { "id": 2, "value": "A striker dropping deep to midfield", "isCorrect": true },
+      { "id": 3, "value": "Nine substitutions", "isCorrect": false },
+      { "id": 4, "value": "A formation change", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "How many times has Argentina won the FIFA World Cup?",
+    "options": [
+      { "id": 1, "value": "2", "isCorrect": false },
+      { "id": 2, "value": "3", "isCorrect": true },
+      { "id": 3, "value": "4", "isCorrect": false },
+      { "id": 4, "value": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "What is 'tiki-taka' style of play?",
+    "options": [
+      { "id": 1, "value": "Aggressive attacking football", "isCorrect": false },
+      { "id": 2, "value": "Short passing, possession-based football", "isCorrect": true },
+      { "id": 3, "value": "Defensive football", "isCorrect": false },
+      { "id": 4, "value": "Long ball style", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Which player is known as 'The Phenomenon'?",
+    "options": [
+      { "id": 1, "value": "Ronaldinho", "isCorrect": false },
+      { "id": 2, "value": "Ronaldo", "isCorrect": true },
+      { "id": 3, "value": "Ronaldo Nazário", "isCorrect": false },
+      { "id": 4, "value": "Cristiano Ronaldo", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "What is the role of a winger in football?",
+    "options": [
+      { "id": 1, "value": "Defending the goal", "isCorrect": false },
+      { "id": 2, "value": "Playing on the sides to deliver crosses", "isCorrect": true },
+      { "id": 3, "value": "Being goalkeeper", "isCorrect": false },
+      { "id": 4, "value": "Penalty kicks", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Which club plays at San Siro?",
+    "options": [
+      { "id": 1, "value": "Juventus", "isCorrect": false },
+      { "id": 2, "value": "AC Milan and Inter Milan", "isCorrect": true },
+      { "id": 3, "value": "Roma", "isCorrect": false },
+      { "id": 4, "value": "Napoli", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "What is an 'assist' in football?",
+    "options": [
+      { "id": 1, "value": "A defensive action", "isCorrect": false },
+      { "id": 2, "value": "Pass leading directly to a goal", "isCorrect": true },
+      { "id": 3, "value": "A substitution", "isCorrect": false },
+      { "id": 4, "value": "A tackle", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Which country is Gianluigi Donnarumma from?",
+    "options": [
+      { "id": 1, "value": "Spain", "isCorrect": false },
+      { "id": 2, "value": "Italy", "isCorrect": true },
+      { "id": 3, "value": "France", "isCorrect": false },
+      { "id": 4, "value": "Germany", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "What is the maximum air pressure in a football?",
+    "options": [
+      { "id": 1, "value": "0.5 bar", "isCorrect": false },
+      { "id": 2, "value": "1.1 bar", "isCorrect": true },
+      { "id": 3, "value": "1.5 bar", "isCorrect": false },
+      { "id": 4, "value": "2 bar", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Which club is known as 'The Blaugrana'?",
+    "options": [
+      { "id": 1, "value": "Real Madrid", "isCorrect": false },
+      { "id": 2, "value": "Barcelona", "isCorrect": true },
+      { "id": 3, "value": "Atletico Madrid", "isCorrect": false },
+      { "id": 4, "value": "Valencia", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "What is 'gegenpressing' in football?",
+    "options": [
+      { "id": 1, "value": "Slow possession play", "isCorrect": false },
+      { "id": 2, "value": "Immediate pressing after losing ball", "isCorrect": true },
+      { "id": 3, "value": "Set pieces", "isCorrect": false },
+      { "id": 4, "value": "Defensive formation", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "How many substitutes sit on the bench in a standard match?",
+    "options": [
+      { "id": 1, "value": "5", "isCorrect": false },
+      { "id": 2, "value": "7", "isCorrect": true },
+      { "id": 3, "value": "9", "isCorrect": false },
+      { "id": 4, "value": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Which player won the Ballon d'Or award most recently (2024)?",
+    "options": [
+      { "id": 1, "value": "Vinicius Jr", "isCorrect": true },
+      { "id": 2, "value": "Erling Haaland", "isCorrect": false },
+      { "id": 3, "value": "Jude Bellingham", "isCorrect": false },
+      { "id": 4, "value": "Kylian Mbappé", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "What is a 'brace' in football?",
+    "options": [
+      { "id": 1, "value": "One goal", "isCorrect": false },
+      { "id": 2, "value": "Two goals by one player in a match", "isCorrect": true },
+      { "id": 3, "value": "Three goals", "isCorrect": false },
+      { "id": 4, "value": "Four goals", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Which club won the Coppa Italia in 2023?",
+    "options": [
+      { "id": 1, "value": "AS Roma", "isCorrect": true },
+      { "id": 2, "value": "Juventus", "isCorrect": false },
+      { "id": 3, "value": "AC Milan", "isCorrect": false },
+      { "id": 4, "value": "Napoli", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "What is the role of a fullback in football?",
+    "options": [
+      { "id": 1, "value": "Scoring goals", "isCorrect": false },
+      { "id": 2, "value": "Defending the sidelines", "isCorrect": true },
+      { "id": 3, "value": "Playing goalkeeper", "isCorrect": false },
+      { "id": 4, "value": "Midfield control", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Which country is Harry Kane from?",
+    "options": [
+      { "id": 1, "value": "Scotland", "isCorrect": false },
+      { "id": 2, "value": "Wales", "isCorrect": false },
+      { "id": 3, "value": "England", "isCorrect": true },
+      { "id": 4, "value": "Ireland", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "What is 'offside trap' in football?",
+    "options": [
+      { "id": 1, "value": "Keeping all players defensive", "isCorrect": false },
+      { "id": 2, "value": "Coordinated movement to put opponents in offside", "isCorrect": true },
+      { "id": 3, "value": "Breaking the offside rule", "isCorrect": false },
+      { "id": 4, "value": "A defensive formation", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Which team holds the record for the longest unbeaten run in Premier League?",
+    "options": [
+      { "id": 1, "value": "Manchester United", "isCorrect": false },
+      { "id": 2, "value": "Arsenal FC", "isCorrect": true },
+      { "id": 3, "value": "Chelsea FC", "isCorrect": false },
+      { "id": 4, "value": "Liverpool FC", "isCorrect": false }
+    ]
+  }
+]

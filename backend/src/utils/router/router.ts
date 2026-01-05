@@ -1,17 +1,18 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
+import { URL } from 'node:url';
 import { StatusCodes } from 'http-status-codes';
 
 type Method = 'GET' | 'POST' | 'PATCH' | 'DELETE' | 'PUT';
 
 export type ControllerEvent = {
-  method: string;
-  body: any;
-  params: Record<string, string>;
-  query: Record<string, string>;
+  method: Method;
+  body: unknown;
+  params: Record<string, string | number | boolean>;
+  query: Record<string, string | number | boolean>;
 };
 
-export type ControllerResponse = {
-  body: any;
+export type ControllerResponse<TBody = unknown> = {
+  body: TBody;
   statusCode?: number;
   headers?: Record<string, string>;
 };
@@ -20,34 +21,36 @@ type RouteHandler = (event: ControllerEvent) => Promise<ControllerResponse>;
 export type Route = [Method, string, RouteHandler];
 
 const createRouter = (routes: Route[]) => {
-  const compiledRoutes = routes.map(([method, path, handler]) => ({
-    method,
-    path,
+  const compiledRoutes = routes.map(([method, pattern, handler]) => ({
+    method: method.toUpperCase(),
+    pattern,
     handler,
   }));
 
   return async (req: IncomingMessage, res: ServerResponse) => {
-    const { method, url } = req;
+    const { method: requestMethod, url, headers } = req;
+    const { pathname, searchParams } = new URL(`https://${headers.host || 'localhost'}${url}`);
 
     for (const route of compiledRoutes) {
-      const [reqPath, queryString] = url?.split('?') || [];
+      const { method, pattern, handler } = route;
 
-      if (route.method !== method) continue;
-      // if (route.path !== reqPath) continue; // TODO: compare path with reqPath like /users/{id}/questions/{questionId} with /users/123/questions/456
+      if (method !== requestMethod.toUpperCase()) continue;
+
+      const match = matchRoute(pattern, pathname);
+      if (!match) continue;
 
       try {
-        const body = parseBody(req);
-        const params = parseParams(route.path, reqPath);
-        const query = parseQuery(queryString);
+        const body = req.body ?? {};
+        const query = parseQuery(searchParams);
 
         const event: ControllerEvent = {
-          method: method || '',
+          method: method as Method,
           body,
-          params,
+          params: match.params,
           query,
         };
 
-        const response = await route.handler(event);
+        const response = await handler(event);
 
         const statusCode = response.statusCode || StatusCodes.OK;
         const headers = {
@@ -72,15 +75,35 @@ const createRouter = (routes: Route[]) => {
   };
 };
 
-const parseBody = (req: IncomingMessage) => {
-  return {};
+const parseQuery = (searchParams: URLSearchParams): Record<string, string> => {
+  const query: Record<string, string> = {};
+  for (const [key, value] of searchParams.entries()) {
+    query[key] = value;
+  }
+
+  return query;
 };
-const parseParams = (path: string, matcher: string) => {
-  // TODO implement helper to combin path params name with values like { id: 123, questionId: 456 }
-  return {};
-};
-const parseQuery = (queryString: string) => {
-  return {};
+
+const matchRoute = (pattern: string, pathname: string): { params: Record<string, string> } | null => {
+  const patternParts = pattern.split('/');
+  const pathParts = pathname.split('/');
+
+  if (patternParts.length !== pathParts.length) return null;
+
+  const params: Record<string, string> = {};
+
+  for (let i = 0; i < patternParts.length; i++) {
+    const segment = patternParts[i];
+
+    if (segment.startsWith('{') && segment.endsWith('}')) {
+      const paramName = segment.slice(1, -1);
+      params[paramName] = decodeURIComponent(pathParts[i]); // URL decode params
+    } else if (segment !== pathParts[i]) {
+      return null;
+    }
+  }
+
+  return { params };
 };
 
 export default createRouter;

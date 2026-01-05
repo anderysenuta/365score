@@ -5,11 +5,15 @@ export type Handler = (req: IncomingMessage, res: ServerResponse) => Promise<voi
 
 export const composeMiddleware = (middlewares: Middleware[], handler: Handler): Handler => {
   return async (req: IncomingMessage, res: ServerResponse) => {
-    const next = async () => {
-      for await (const middleware of middlewares) {
+    let index = 0;
+
+    const next = async (): Promise<void> => {
+      if (index < middlewares.length) {
+        const middleware = middlewares[index++];
         await middleware(req, res, next);
+      } else {
+        await handler(req, res);
       }
-      await handler(req, res);
     };
 
     try {

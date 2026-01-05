@@ -1,4 +1,4 @@
-import pool from '../../../services/postgres/postgres.service';
+import { getPool } from '../../../services/postgres/postgres.service';
 import { insertOptionsQuery, insertQuestionQuery } from './create-question.sql';
 
 type CreateQuestionInput = {
@@ -21,6 +21,7 @@ type CreateQuestionOutput = {
 };
 
 export const createQuestionService = async (input: CreateQuestionInput): Promise<CreateQuestionOutput> => {
+  const pool = getPool();
   const client = await pool.connect();
 
   try {
